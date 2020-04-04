@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                edad--;
            }
        }
+
        if (nombre.length() == 0) {
            Toast.makeText(this, "Completar Nombre", Toast.LENGTH_SHORT).show();
        } else{
